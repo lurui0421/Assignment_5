@@ -1,0 +1,14 @@
+Package: assignment5
+Title: Assignment5 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Rui",
+           family = "Lu",
+           role = c("aut", "cre"),
+           email = "rl2614@tc.columbia.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package filter out useful information for NBA data set.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
