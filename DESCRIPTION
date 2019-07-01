@@ -6,6 +6,7 @@ Depends:
   R (>= 3.1-0)
  Imports:
    dplyr,
+   purrr,
    corrplot
 Maintainer: Rui Lu <rl2614@columbia.edu>
 Description: This package filter out useful information for NBA data set.
