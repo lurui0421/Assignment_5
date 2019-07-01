@@ -7,7 +7,7 @@
 #' correlogram()
 
 correlogram <- function(data, year){
-            sub <- dplyr::filter(data, Year == year)
-            numeric <- purrr::keep(sub, is.numeric)
+            sub <- filter(data, Year == year)
+            numeric <- keep(sub, is.numeric)
             cor <- cor(numeric[,-1])
             corrplot(cor, method="circle")}
