@@ -6,6 +6,6 @@
 #' @examples
 #' max_pts()
 max_pts <- function(data,year){
-          sub <- dplyr::filter(data, Year == year)
-          max <- dplyr::filter(sub, PTS == max(PTS, na.rm = TRUE))
-          dplyr::select(max, Year, Player, PTS)}
+          sub <- filter(data, Year == year)
+          max <- filter(sub, PTS == max(PTS, na.rm = TRUE))
+          select(max, Year, Player, PTS)}
