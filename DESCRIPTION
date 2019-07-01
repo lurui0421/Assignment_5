@@ -2,9 +2,7 @@ Package: assignment5
 Title: Assignment5 R Code
 Version: 0.0.0.9000
 Authors: Rui Lu <rl2614@columbia.edu>
-Depends:
-  R (>= 3.1.0)
- Imports:
+Imports:
    dplyr,
    purrr,
    corrplot
