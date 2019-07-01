@@ -1,7 +1,7 @@
 Package: assignment5
 Title: Assignment5 R Code
 Version: 0.0.0.9000
-Authors@R: c(person("Rui", "Lu", role = c("aut", "cre"), email = "rl2614@columbia.edu")
+Authors@R: person("Rui", "Lu", role = c("aut", "cre"), email = "rl2614@columbia.edu"
 Imports:
    dplyr,
    purrr,
