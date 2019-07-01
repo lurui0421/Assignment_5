@@ -7,6 +7,6 @@
 #' oldest_player()
 
 oldest_player <- function(data, year){
-                  sub <- dplyr::filter(data, Year == year)
-                  filter <- dplyr::filter(sub, Age == max(Age, na.rm = TRUE))
-                  dplyr::filter(filter, PTS == max(PTS, na.rm = TRUE))}
+                  sub <- filter(data, Year == year)
+                  filter <- filter(sub, Age == max(Age, na.rm = TRUE))
+                  filter(filter, PTS == max(PTS, na.rm = TRUE))}
