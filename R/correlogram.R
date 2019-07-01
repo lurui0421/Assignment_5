@@ -10,4 +10,4 @@ correlogram <- function(data, year){
             sub <- dplyr::filter(data, Year == year)
             numeric <- purrr::keep(sub, is.numeric)
             cor <- cor(numeric[,-1])
-            corrplot::corrplot(cor, method="circle")}
+            corrplot(cor, method="circle")}
