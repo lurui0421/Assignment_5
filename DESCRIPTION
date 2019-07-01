@@ -2,15 +2,13 @@ Package: assignment5
 Title: Assignment5 R Code
 Version: 0.0.0.9000
 Authors@R: Rui Lu <rl2614@columbia.edu>
-Depends:
-R (>= 3.1-0)
 Imports:
    dplyr,
    purrr,
    corrplot
+
 Maintainer: Rui Lu <rl2614@columbia.edu>
 Description: This package filter out useful information for NBA data set.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.1.1
+
